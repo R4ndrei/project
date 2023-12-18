@@ -1,24 +1,33 @@
-# README
+# Boards API - A Trello-like Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a Ruby on Rails web application that provides functionalities similar to those of the Trello platform. It allows users to create and manage boards, columns, and stories, akin to Trello's boards, lists, and cards. The purpose of this project is to demonstrate skills in developing complex web applications using Ruby on Rails.
 
-Things you may want to cover:
+Features
+CRUD Operations: Users can create, read, update, and delete boards, columns, and stories.
+Ordering: Columns and stories can be rearranged in an intuitive manner.
 
-* Ruby version
+Technologies Used
+-Ruby on Rails
+-SQLite (for development) / PostgreSQL (for production)
+-HTML/CSS (for simplified frontend elements)
 
-* System dependencies
+How to Run the Project
 
-* Configuration
+Ensure you have Ruby, Rails, and SQLite installed on your system. For more details, refer to the official Ruby on Rails documentation.
 
-* Database creation
+Cloning the Repository
+git clone https://github.com/R4ndrei/project.git
+cd project
 
-* Database initialization
+Setting Up the Application
+Install the necessary dependencies:
+bundle install
 
-* How to run the test suite
+Set up the database:
+rails db:create db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+Starting the Local Server
+You can start the local server using:
+rails server
 
-* Deployment instructions
-
-* ...
+After the server is up, visit http://localhost:3000 in your browser to view the application.
